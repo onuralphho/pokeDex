@@ -1,26 +1,65 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
+.pokemon-type[class*="normal"]{
+    background:rgb(161, 132, 0);
+    }
+.pokemon-type[class*="fighting"]{
+background:rgb(179, 17, 17);
 }
+.pokemon-type[class*="poison"]{
+    background:rgb(99, 0, 129);
+    }
 
-* {
-  box-sizing: border-box;
+.pokemon-type[class*="ground"]{
+background:rgb(109, 83, 0);
 }
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.pokemon-type[class*="rock"]{
+    background:rgb(44, 44, 44);
+}
+.pokemon-type[class*="bug"]{
+    background:rgb(30, 138, 16);
+    }
+.pokemon-type[class*="ghost"]{
+background:rgb(0, 41, 177);
+}
+.pokemon-type[class*="steel"]{
+background:rgb(114, 114, 114);
+}
+.pokemon-type[class*="fire"]{
+background:rgb(207, 48, 0);
+}
+.pokemon-type[class*="water"]{
+background:rgb(33, 143, 206);
+}
+.pokemon-type[class*="grass"]{
+background:rgb(73, 197, 23);
+}
+.pokemon-type[class*="psychic"]{
+background:rgb(221, 38, 166);
+}
+.pokemon-type[class*="ice"]{
+background:rgb(35, 221, 206);
+}
+.pokemon-type[class*="dragon"]{
+background:rgb(124, 8, 0);
+}
+.pokemon-type[class*="dark"]{
+background:rgb(12, 0, 122);
+}
+.pokemon-type[class*="fairy"]{
+background:rgb(183, 0, 255);
+}
+.pokemon-type[class*="unknown"]{
+background:rgb(15, 15, 15);
+}
+.pokemon-type[class*="shadow"]{
+background:rgb(1, 0, 49);
+}
+.pokemon-type[class*="flying"]{
+background:rgb(176, 76, 185);
+}
+.pokemon-type[class*="electric"]{
+background:rgb(230, 216, 28);
 }
