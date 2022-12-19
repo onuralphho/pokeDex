@@ -15,12 +15,7 @@ const PokemonCard = (props) => {
     setDetails(data);
   };
 
-  // const getEvos = async () => {
-  //   const res = await fetch(`https://pokeapi.co/api/v2/evolution-chain/${details.id}`)
-  //   const data = await res.json()
-  //   setEvolution(data)
-  //   console.log(details);
-  // };
+
 
   return (
     <>
