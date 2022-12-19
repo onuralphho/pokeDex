@@ -30,7 +30,7 @@ const PokemonDetail = (props) => {
         }}
         className="fixed top-0 w-screen h-screen bg-black bg-opacity-60 z-10 "
       ></div>
-      <div className="fixed mx-auto my-auto w-full p-4 sm:w-10/12   xl:w-8/12  2xl:w-5/12 px-5  z-20 bg-white rounded-xl">
+      <div className="fixed mx-auto my-auto max-sm:-mt-[100px] w-full p-4 sm:w-10/12   xl:w-8/12  2xl:w-5/12 px-5  z-20 bg-white rounded-xl">
         <div className="flex flex-row w-full h-auto   justify-between">
         <span className="text-gray-400 text-xl self-center ">#{props.details.id}</span>
           <button
