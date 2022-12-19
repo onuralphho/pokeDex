@@ -66,8 +66,8 @@ export default function Home({ data: pokemons, data2: allTypes }) {
             <Logo className="w-[200px] h-[100px]"></Logo>
           </div>
         </nav>
-        <div className="container  mx-auto overflow-hidden max-sm::h-[790px] h-[900px] ">
-          <div className="flex flex-wrap gap-5 mb-5  m-2 ">
+        <div className="container  mx-auto overflow-hidden max-sm::h-[790px] h-[800px] ">
+          <div className="flex flex-wrap gap-5   m-2 ">
             <select
               onChange={categoryInputHandler}
               className="text-xl max-sm:w-full grow bg-white rounded-lg p-2 shadow-lg capitalize flex-nowrap cursor-pointer"
@@ -94,7 +94,7 @@ export default function Home({ data: pokemons, data2: allTypes }) {
               className="input grow bg-white"
             />
           </div>
-          <ul className="flex  gap-4   content-start  flex-wrap pt-2 scrollbar-hide  justify-center  h-full  overflow-auto">
+          <ul className="flex pt-5  gap-4   content-start  flex-wrap scrollbar-hide  justify-center  h-full  overflow-auto">
             {categoryInput !== "clear" && categoryInput !== undefined
               ? filteredCategoryBySearch.map((pokemon) => (
                   <PokemonCard
