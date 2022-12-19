@@ -27,7 +27,7 @@ const PokemonCard = (props) => {
       <div
         onClick={async () => {
           await getDetails();
-          
+          console.log()
          
           setIsModal(!isModal);
         }}
