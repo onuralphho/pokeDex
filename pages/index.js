@@ -63,7 +63,7 @@ export default function Home({ data: pokemons, data2: allTypes }) {
       <div className=" h-screen w-auto   ">
         <nav className="container mx-auto  ">
           <div className="flex ">
-            <Logo className="w-[200px] h-[100px]"></Logo>
+            <Logo/>
           </div>
         </nav>
         <div className="container  mx-auto overflow-hidden max-sm:h-full h-[820px]  ">
