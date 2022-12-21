@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+   @apply bg-gradient-to-tr from-green-300 to-blue-500
+   overflow-hidden
+}
+
 .pokemon-type[class*="normal"]{
     background:rgb(161, 132, 0);
     }

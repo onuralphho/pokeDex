@@ -60,13 +60,13 @@ export default function Home({ data: pokemons, data2: allTypes }) {
 
   return (
     <>
-      <div className="h-screen w-auto  bg-gradient-to-tr from-green-300 to-blue-500 ">
+      <div className=" h-screen w-auto   ">
         <nav className="container mx-auto  ">
           <div className="flex ">
             <Logo className="w-[200px] h-[100px]"></Logo>
           </div>
         </nav>
-        <div className="container  mx-auto overflow-hidden max-sm::h-[790px] h-[800px] ">
+        <div className="container  mx-auto overflow-hidden max-sm:h-full h-[820px]  ">
           <div className="flex flex-wrap gap-5   m-2 ">
             <select
               onChange={categoryInputHandler}
@@ -94,7 +94,7 @@ export default function Home({ data: pokemons, data2: allTypes }) {
               className="input grow bg-white"
             />
           </div>
-          <ul className="flex pt-5  gap-4   content-start  flex-wrap scrollbar-hide  justify-center  h-full  overflow-auto">
+          <ul className="flex mt-5 pt-5 gap-4   content-start  flex-wrap scrollbar-hide  justify-center  h-full  overflow-auto">
             {categoryInput !== "clear" && categoryInput !== undefined
               ? filteredCategoryBySearch.map((pokemon) => (
                   <PokemonCard
