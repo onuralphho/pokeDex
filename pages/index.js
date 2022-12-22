@@ -26,7 +26,7 @@ export default function Home({ data: pokemons, data2: allTypes }) {
     if (categoryInput === undefined || categoryInput === "clear") {
       
       setAllPokemons(pokemons.results);
-      console.log(allPokemons);
+      
     }
 
     if (categoryInput !== undefined && categoryInput !== "clear") {
