@@ -68,3 +68,19 @@ background:rgb(176, 76, 185);
 .pokemon-type[class*="electric"]{
 background:rgb(230, 216, 28);
 }
+
+
+.fade-in{
+animation: fade 0.5s ease-in
+}
+
+@keyframes fade {
+    from{
+        opacity: 0.5;
+    }
+    to{
+        opacity: 1;
+    }
+
+    
+}
